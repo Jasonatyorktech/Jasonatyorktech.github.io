@@ -2,19 +2,59 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thumbspanel</title>
+    <style media="screen">
+    div {
+      border: 1px solid black;
+      background-color: red;
+      margin: 5px;
+      padding: 5px;
+    }
+    body{ background-color: green
+    }
+    #content {
+      border: 5px dotted yellow;
+      background-color: green;
+      margin: auto;
+      width: 50S%;
+      height: 500px;
+    }
+    .linksBox{
+
+      background-color: green;
+    }
+    @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+    </style>
   </head>
   <body>
-    <h1>Thumbspanel</h1>
+    <div id="content">
 
-    <p><a href="http://172.21.3.4:5000/tutd?thumb=up">thumbs up</a>
-      <p><a href="http://172.21.3.4:5000/tutd?thumb=wiggle">wiggle hand</a></p>
-      <p><a href="http://172.21.3.4:5000/tutd?thumb=down">thumb down</a></p>
-      <p> <a href="http://172.21.3.4:5000/bgm?file=eve&volume=1"> sound stuff</a></p>
-      <p> <a href="http://172.21.3.4:5000/color?hex=24a2ab">color</a></p>
-      <p><a href="http://172.21.3.4:5000/say?phrase='hello'">say stuff</a></p>
-      <p><a href="http://172.21.3.4:5000/perc?amount=100">what?</a></p>
+  <div class="linksBox">
+  <h1>Thumbspanel</h1>
+  <p>This this the control panel</p>
+  </div>
 
 
+  <div class="linksBox">
+        <p><a href="http://172.21.3.4:5000/tutd?thumb=up">thumbs up</a>
+        <p><a href="http://172.21.3.4:5000/tutd?thumb=wiggle">wiggle hand</a></p>
+        <p><a href="http://172.21.3.4:5000/tutd?thumb=down">thumb down</a></p>
+        <p><a href="http://172.21.3.4:5000/tutd?thumb=oops">oops</a></p>
+  </div>
+  <div class="linksBox">
+        <p><a href="game.html">Game</a></p>
+        <p> <a href="http://172.21.3.4:5000/bgm?file=eve&volume=1"> sound stuff</a></p>
+        <p> <a href="http://172.21.3.4:5000/color?hex=24a2ab">color</a></p>
+        <p><a href="http://172.21.3.4:5000/say?phrase=hes">say stuff</a></p>
+        <p><a href="http://172.21.3.4:5000/perc?amount=100">what?</a></p>
+  </div>
+<p><a href="https://www.youtube.com/watch?v=aUqCcgXGK6k">roblos flip </p>
+
+</div>
   </body>
 </html>
