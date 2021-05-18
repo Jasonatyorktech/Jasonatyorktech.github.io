@@ -1,60 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thumbspanel</title>
-    <style media="screen">
-    div {
-      border: 1px solid black;
-      background-color: red;
-      margin: 5px;
-      padding: 5px;
-    }
-    body{ background-color: green
-    }
-    #content {
-      border: 5px dotted yellow;
-      background-color: green;
-      margin: auto;
-      width: 50S%;
-      height: 500px;
-    }
-    .linksBox{
 
-      background-color: green;
-    }
-    @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
-    </style>
-  </head>
-  <body>
-    <div id="content">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thumbspanel</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript">
+    var box = ["sword", "pickaxe", "shovel", "cure for cancer"]
+var rando = Math.random() * 4
+rando = Math.floor(rando)
+  document.getElementById("paraBox").innerHTML = box[rando]
+  </script>
+</head>
 
-  <div class="linksBox">
-  <h1>Thumbspanel</h1>
-  <p>This this the control panel</p>
+<body>
+  <div id="content">
+
+    <div class="headerBox">
+      <h1>Thumbspanel</h1>
+      <p id="paraBox"></p>
+    </div>
+
+
+    <div class="linksBox">
+      <p><a href="http://172.21.3.4:5000/tutd?thumb=up">thumbs up</a>
+      <p><a href="http://172.21.3.4:5000/tutd?thumb=wiggle">wiggle hand</a></p>
+      <p><a href="http://172.21.3.4:5000/tutd?thumb=down">thumb down</a></p>
+      <p><a href="http://172.21.3.4:5000/tutd?thumb=oops">oops</a></p>
+    </div>
+    <div class="textBox">
+      <div class="textBox">
+        <img src="img/darkNoobOfTheCreepyForest.png" alt="dark noob of the creepy forest">
+        <p>This is dark noob of the creepy forest. drawn by earsponjason(not cannon)</p>
+      </div>
+      <div class="textBox">
+        <img src="img/evilGooKoboldOfThePurple.png" alt="dark noob of the creepy forest">
+        <p>This is evil goo kolbold of the purple also drawn by earsponjason(not cannon)</p>
+      </div>
+      <div class="textBox">
+        <img src="img/lore.png" alt="dark noob of the creepy forest">
+        <p>This is lore made by earsponjason(not cannon)</p>
+      </div>
+    </div>
+    <div class="linksBox">
+      <p><a href="game.html">Game</a></p>
+      <p> <a href="http://172.21.3.4:5000/bgm?file=eve&volume=1"> sound stuff</a></p>
+      <p> <a href="http://172.21.3.4:5000/color?hex=24a2ab">color</a></p>
+      <p><a href="http://172.21.3.4:5000/say?phrase=hes">say stuff</a></p>
+      <p><a href="http://172.21.3.4:5000/perc?amount=100">what?</a></p>
+    </div>
+    <p><a href="https://www.youtube.com/watch?v=aUqCcgXGK6k">roblos flip </p>
+
   </div>
+</body>
 
-
-  <div class="linksBox">
-        <p><a href="http://172.21.3.4:5000/tutd?thumb=up">thumbs up</a>
-        <p><a href="http://172.21.3.4:5000/tutd?thumb=wiggle">wiggle hand</a></p>
-        <p><a href="http://172.21.3.4:5000/tutd?thumb=down">thumb down</a></p>
-        <p><a href="http://172.21.3.4:5000/tutd?thumb=oops">oops</a></p>
-  </div>
-  <div class="linksBox">
-        <p><a href="game.html">Game</a></p>
-        <p> <a href="http://172.21.3.4:5000/bgm?file=eve&volume=1"> sound stuff</a></p>
-        <p> <a href="http://172.21.3.4:5000/color?hex=24a2ab">color</a></p>
-        <p><a href="http://172.21.3.4:5000/say?phrase=hes">say stuff</a></p>
-        <p><a href="http://172.21.3.4:5000/perc?amount=100">what?</a></p>
-  </div>
-<p><a href="https://www.youtube.com/watch?v=aUqCcgXGK6k">roblos flip </p>
-
-</div>
-  </body>
 </html>
